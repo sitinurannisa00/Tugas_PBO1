@@ -12,11 +12,11 @@ public class PembeliMobil extends DaelerMobil {
         System.out.println("Nama Penjual Mobil : "+NamaPenjual);
         System.out.println(" Jumlah Beli       : "+Jumlahbeli);
     }
-    public void jumlahinfo(){
-        String ji = "INSERT INTO DaelerMobil VALUES ('"+Jumlahbeli+"')";
+    public void jumlahinfo() {
+        String ji = "INSERT INTO DaelerMobil VALUES ('" + Jumlahbeli + "')";
         System.out.println(ji);
-
     }
+
     //Getter And Setter
 
 
@@ -43,4 +43,17 @@ public class PembeliMobil extends DaelerMobil {
     public void setJumlahbeli(String jumlahbeli) {
         Jumlahbeli = jumlahbeli;
     }
+
+    //overridding
+
+    @Override
+    public void tampilkanAtribut() {
+        super.tampilkanAtribut();
+    }
+
+    @Override
+    public boolean create(String TypeMobil) {
+        return super.create(TypeMobil);
+    }
 }
+
