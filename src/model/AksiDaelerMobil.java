@@ -16,7 +16,20 @@ public class AksiDaelerMobil {
 
         //Object class 2
         PembeliMobil pembeli = new PembeliMobil();
-        pembeli.NamaMobil = "Honda ";
+        pembeli.NamaMobil = "Honda Brio";
+        pembeli.TypeMobil = "Honda";
+        pembeli.WarnaMobil= "Merah";
+        pembeli.TahunKeluarMobil = "2021";
+        pembeli.NomerMesinMobil ="345678956245";
+        pembeli.NomerKerangkaMobil ="243567865689";
+        pembeli.ModelMobil="Brio E CVT";
+        pembeli.HargaMobil= 175000000;
+        pembeli.tampilkanAtribut();
+        pembeli.create();
+        pembeli.create("Honda Brio");
+
+        //construktor dengan mothod (obeject)
+
 
 
     }
