@@ -1,7 +1,7 @@
 package model;
 
 public class DaelerMobil {
-//    8 atribut clas DaelerMobil
+//    8 atribut clas DaelerMobil//
 
     public String NamaMobil;
     public String TypeMobil;
